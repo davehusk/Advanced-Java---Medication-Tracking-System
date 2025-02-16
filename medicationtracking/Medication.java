@@ -36,9 +36,14 @@ public class Medication {
         return name;
     }
 
+    // Getter for ID
+    public int getId() {
+        return id;
+    }
+
     // Override toString to display medication details
     @Override
     public String toString() {
-        return name + " (Dosage: " + dosage + "mg, Stock: " + quantityInStock + ", Expires: " + expiryDate + ")";
+        return "Medication ID: " + id + " | Name: " + name + " | Dosage: " + dosage + "mg | Stock: " + quantityInStock + " | Expires: " + expiryDate;
     }
 }

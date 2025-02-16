@@ -1,0 +1,128 @@
+=======================================
+     * PHARMACY MANAGEMENT SYSTEM *
+=======================================
+1 -> Add Patient
+2 -> Add Doctor
+3 -> Add Medication
+4 -> Add Prescription
+5 -> Search Medication
+6 -> Check Expired Medications
+7 -> Print All Prescriptions for a Doctor
+8 -> List All Patients
+9 -> List All Doctors
+10 -> List All Medications
+11 -> List All Prescriptions
+12 -> Exit
+=======================================
+
+Select an option: 11
+
+[*] LIST OF PRESCRIPTIONS
+---------------------------
+Prescription ID: 4 | Doctor: Smith | Patient: David Husk | Medication: Ritalin
+
+Press ENTER to continue...
+
+Select an option: 10
+
+[*] LIST OF MEDICATIONS
+---------------------------
+Medication ID: 3 | Name: Ritalin | Dosage: 20mg | Stock: 100 | Expires: 2023-02-16
+
+Press ENTER to continue...
+
+Select an option: 9
+
+[*] LIST OF DOCTORS
+---------------------------
+Doctor ID: 2 | Name: Smith | Specialization: Cardio
+
+Press ENTER to continue...
+
+Select an option: 8
+
+[*] LIST OF PATIENTS
+---------------------------
+Patient ID: 1 | Name: David Husk | Age: 41 | Phone: 7097771234
+
+Press ENTER to continue...
+
+Select an option: 7
+
+[*] AVAILABLE DOCTORS
+---------------------------
+- Smith
+
+[*] SEARCH PRESCRIPTIONS FOR A DOCTOR
+Enter Doctor's Name (partial allowed): smith
+? Prescription ID: 4 | Doctor: Smith | Patient: David Husk | Medication: Ritalin
+
+Press ENTER to continue...
+
+Select an option: 6
+
+[*] CHECK EXPIRED MEDICATIONS
+---------------------------
+?? EXPIRED: Medication ID: 3 | Name: Ritalin | Dosage: 20mg | Stock: 100 | Expires: 2023-02-16
+
+Press ENTER to continue...
+
+Select an option: 5
+
+[*] AVAILABLE MEDICATIONS
+---------------------------
+- Ritalin
+
+[*] SEARCH MEDICATION
+Enter Medication Name (partial allowed): rit
+Found: Medication ID: 3 | Name: Ritalin | Dosage: 20mg | Stock: 100 | Expires: 2023-02-16
+
+Press ENTER to continue...
+
+Select an option: 4
+
+[+] ADD NEW PRESCRIPTION
+---------------------------
+[*] Select a Doctor:
+
+[*] LIST OF DOCTORS
+---------------------------
+Doctor ID: 2 | Name: Smith | Specialization: Cardio
+
+Press ENTER to continue...
+
+Enter Doctor ID: 2
+[*] Select a Patient:
+
+[*] LIST OF PATIENTS
+---------------------------
+Patient ID: 1 | Name: David Husk | Age: 41 | Phone: 7097771234
+
+Press ENTER to continue...
+
+Enter Patient ID: 1
+[*] Select a Medication:
+
+[*] LIST OF MEDICATIONS
+---------------------------
+Medication ID: 3 | Name: Ritalin | Dosage: 20mg | Stock: 100 | Expires: 2023-02-16
+
+Press ENTER to continue...
+
+Enter Medication ID: 3
+? Prescription added successfully!
+
+Press ENTER to continue...
+
+Select an option: 7
+
+[*] AVAILABLE DOCTORS
+---------------------------
+- Smith
+
+[*] SEARCH PRESCRIPTIONS FOR A DOCTOR
+Enter Doctor's Name (partial allowed): smi
+? Prescription ID: 4 | Doctor: Smith | Patient: David Husk | Medication: Ritalin
+? Prescription ID: 5 | Doctor: Smith | Patient: David Husk | Medication: Ritalin
+
+Press ENTER to continue...

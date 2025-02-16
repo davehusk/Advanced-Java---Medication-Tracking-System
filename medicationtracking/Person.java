@@ -20,9 +20,14 @@ public class Person {
         return name;
     }
 
+    // Getter for ID
+    public int getId() {
+        return id;
+    }
+
     // Override toString to display person details
     @Override
     public String toString() {
-        return "Name: " + name + " | Age: " + age + " | Phone: " + phoneNumber;
+        return "ID: " + id + " | Name: " + name + " | Age: " + age + " | Phone: " + phoneNumber;
     }
 }

@@ -15,9 +15,14 @@ public class Doctor extends Person {
         return specialization;
     }
 
+    // Getter for ID
+    public int getId() {
+        return id;
+    }
+
     // Override toString to display doctor details
     @Override
     public String toString() {
-        return "Doctor: " + getName() + " | Specialization: " + specialization;
+        return "Doctor ID: " + id + " | Name: " + getName() + " | Specialization: " + specialization;
     }
 }
