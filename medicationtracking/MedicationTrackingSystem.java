@@ -4,14 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-// Main system
+// Main system to manage the pharmacy
 public class MedicationTrackingSystem {
-    private List<Patient> patients = new ArrayList<>();
-    private List<Doctor> doctors = new ArrayList<>();
-    private List<Medication> medications = new ArrayList<>();
-    private List<Prescription> prescriptions = new ArrayList<>();
-    private static int idCounter = 1;
+    private List<Patient> patients = new ArrayList<>(); // List of patients
+    private List<Doctor> doctors = new ArrayList<>(); // List of doctors
+    private List<Medication> medications = new ArrayList<>(); // List of medications
+    private List<Prescription> prescriptions = new ArrayList<>(); // List of prescriptions
+    private static int idCounter = 1; // Counter to generate unique IDs
 
+    // Main method to run the system
     public static void main(String[] args) {
         MedicationTrackingSystem system = new MedicationTrackingSystem();
         Scanner scanner = new Scanner(System.in);
