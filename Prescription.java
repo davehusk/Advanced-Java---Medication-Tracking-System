@@ -1,6 +1,6 @@
 package medicationtracking;
 
-// This is the prescription class. It tracks prescriptions.
+// Prescriptions link doctors, patients, and medications.
 public class Prescription {
     private int id;
     private Doctor doctor;
@@ -12,5 +12,14 @@ public class Prescription {
         this.doctor = doctor;
         this.patient = patient;
         this.medication = medication;
+    }
+
+    public Doctor getDoctor() {
+        return doctor;
+    }
+
+    @Override
+    public String toString() {
+        return "Prescription ID: " + id + " | Doctor: " + doctor.getName() + " | Patient: " + patient.getName() + " | Medication: " + medication.getName();
     }
 }

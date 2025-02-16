@@ -1,8 +1,11 @@
 package medicationtracking;
 
-// This is the doctor class. Doctors are also people.
+// Doctors are also people.
 public class Doctor extends Person {
-    public Doctor(int id, String name, int age, String phoneNumber) {
+    private String specialization;
+
+    public Doctor(int id, String name, int age, String phoneNumber, String specialization) {
         super(id, name, age, phoneNumber);
+        this.specialization = specialization;
     }
 }

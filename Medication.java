@@ -3,7 +3,7 @@ package medicationtracking;
 import java.time.LocalDate;
 import java.util.Random;
 
-// Now it has expiry dates.
+// Medications have expiry dates.
 public class Medication {
     private int id;
     private String name;
@@ -26,5 +26,14 @@ public class Medication {
 
     public boolean isExpired() {
         return expiryDate.isBefore(LocalDate.now());
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public String toString() {
+        return name + " (Expires: " + expiryDate + ")";
     }
 }

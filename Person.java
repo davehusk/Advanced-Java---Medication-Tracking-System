@@ -1,6 +1,6 @@
 package medicationtracking;
 
-// This is a person class. It will be used for both patients and doctors.
+// This is the base class. It stores basic info.
 public class Person {
     protected int id;
     protected String name;
@@ -12,5 +12,9 @@ public class Person {
         this.name = name;
         this.age = age;
         this.phoneNumber = phoneNumber;
+    }
+
+    public String getName() {
+        return name;
     }
 }
