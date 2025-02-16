@@ -1,0 +1,90 @@
+=======================================
+     * PHARMACY MANAGEMENT SYSTEM *     
+=======================================
+1 -> Add Patient
+2 -> Add Doctor
+3 -> Add Medication
+4 -> Search Medication
+5 -> Check Expired Medications
+6 -> Print All Prescriptions for a Doctor
+7 -> Exit
+=======================================
+Select an option: 1
+
+[+] ADD NEW PATIENT
+---------------------------
+Enter Patient Name: Dave Husk
+Enter Age: 41
+Enter Phone Number: 7093279509
+? Patient added successfully!
+
+Press ENTER to continue...
+
+Select an option: 2
+
+[+] ADD NEW DOCTOR
+---------------------------
+Enter Doctor Name: Dr Smith
+Enter Age: 30
+Enter Phone Number: 7099871234
+Enter Specialization: Babies
+? Doctor added successfully!
+
+Press ENTER to continue...
+
+Select an option: 3
+
+[+] ADD NEW MEDICATION
+---------------------------
+Enter Medication Name: Asprin
+Enter Dosage (mg): 500
+Enter Quantity in Stock: 500
+
+Select an option: 4
+
+[*] AVAILABLE MEDICATIONS
+---------------------------
+- Ritalin
+- Asprin
+
+[*] SEARCH MEDICATION
+Enter Medication Name (partial allowed): rit
+
+Enter Medication Name (partial allowed): rit
+Found: Ritalin (Expires: 2025-02-16)
+
+Press ENTER to continue...
+
+Select an option: 5
+
+[*] CHECK EXPIRED MEDICATIONS
+---------------------------
+?? EXPIRED: Asprin (Expires: 2024-02-16)
+
+Press ENTER to continue...
+
+Select an option: 6
+
+[*] AVAILABLE DOCTORS
+---------------------------
+- Dr Smith
+
+[*] SEARCH PRESCRIPTIONS FOR A DOCTOR
+Enter Doctor's Name (partial allowed): smith
+
+No prescriptions found for doctors matching 'smith'.
+
+Press ENTER to continue...
+
+=======================================
+Select an option: 6
+
+[*] AVAILABLE DOCTORS
+---------------------------
+- Dr Smith
+
+[*] SEARCH PRESCRIPTIONS FOR A DOCTOR
+Enter Doctor's Name (partial allowed): Dr Smith
+No prescriptions found for doctors matching 'dr smith'.
+
+Press ENTER to continue...
